@@ -26,5 +26,5 @@ Running `grunt test` will run the unit tests with karma.
 
 ## Web app Screenshots
 
-![Alt text](/master/app/images/payTouch1.png?raw=true "Home page")
+![Alt text](/app/images/payTouch1.png?raw=true "Home page")
 
