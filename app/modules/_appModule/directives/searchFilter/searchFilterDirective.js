@@ -7,7 +7,7 @@
  * # header
  * Directive of the goTouchApp
  */
-ngModule.directive('searchFilterModal', function () {
+ngModule.directive('searchFilterActorsModal', ['actorsService', function (actorsService) {
   return {
     restrict: 'EA',
     templateUrl: './modules/_appModule/directives/searchFilter/searchFilterDirectiveTemplate.html',
@@ -253,9 +253,33 @@ ngModule.directive('searchFilterModal', function () {
         }
       ];
 
+      /*
+      * Filter actors list with a call to Actors service
+      * */
+      scope.setActorsQueryParams = function (){
+
+        var queryObject = {
+          name: scope.searchDirective.name,
+          location: scope.searchDirective.selectedLocation,
+          isTop: scope.searchDirective.isTop,
+          pty: scope.searchDirective.popularity
+        };
+
+        /*Call to filter the actors list passing the parameters from the modal*/
+        actorsService.loadFilterActorsList(queryObject).then(function (serviceResponse){
+          if(serviceResponse.code == 200){
+            console.info("searchFilterActorsModal :: setActorsQueryParams : ok");
+          }else{
+            console.info("searchFilterActorsModal :: setActorsQueryParams : error in service response");
+          }
+        }, function error (){
+          console.error("searchFilterActorsModal :: setActorsQueryParams execution error ");
+        })
+      };
+
     }
   }
-});
+}]);
 
 
 

@@ -9,4 +9,6 @@ ngModule.controller('ActorsListCtrl', ['actorsService', function(actorsService){
        console.info(actList.actorsList);
    });
 
+
+
 }]);
