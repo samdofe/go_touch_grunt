@@ -26,5 +26,25 @@ Running `grunt test` will run the unit tests with karma.
 
 ## Web app Screenshots
 
+HOME PAGE
+
 ![Alt text](/app/images/payTouch1.png?raw=true "Home page")
+
+ORDER BY
+
+![Alt text](/app/images/payTouch2.png?raw=true "Order by")
+
+![Alt text](/app/images/payTouch3.png?raw=true "Order by")
+
+SEARCH / FILTER
+
+![Alt text](/app/images/payTouch4.png?raw=true "Search filter")
+![Alt text](/app/images/payTouch5.png?raw=true "Search filter")
+
+ACTOR DETAIL INFO
+
+![Alt text](/app/images/payTouch6.png?raw=true "Actor info")
+![Alt text](/app/images/payTouch7.png?raw=true "Actor info")
+
+
 
