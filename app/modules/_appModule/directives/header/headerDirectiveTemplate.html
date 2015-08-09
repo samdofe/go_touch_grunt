@@ -1,0 +1,18 @@
+<div class="header_container">
+  <ul class="nav nav-tabs" role="tablist">
+    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" align="left">
+      <li class="dropdown floatLeft" ><img class="not_selected pay_touch" class="not_selected md_size" src="/images/paytouch.png"></li>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" align="right">
+      <li class="dropdown cursor_pointer floatRigth"><a data-toggle="modal" data-target="#searchFilterModal"><img class="not_selected md_size" class="not_selected md_size" src="/images/mglass.png"></a></li>
+      <li class="dropdown cursor_pointer floatRigth"><a class="dropdown-toggle" data-toggle="dropdown"><img class="not_selected md_size" src="/images/orderBy.png"></a>
+        <ul class="dropdown-menu">
+          <li class="cursor_pointer" ng-click="orderBy('name')">Order By Name</li>
+          <li class="cursor_pointer" ng-click="orderBy('popularity')">Order By Popularity</li>
+        </ul>
+      </li>
+    </div>
+  </ul>
+</div>
+
+<search-filter-modal></search-filter-modal>

@@ -1,0 +1,4 @@
+<header predicate="actList.predicate" reverse="actList.reverse"></header>
+<div class="actor_list_container" ng-repeat="actor in actList.actorsList.actors | orderBy : actList.predicate : actList.reverse">
+    <actor-shrink-info actor="actor" index="{{$index}}"></actor-shrink-info>
+</div>

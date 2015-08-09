@@ -1,0 +1,254 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.not_selected{
+  background-color: #222222;
+}
+
+.md_size{
+  max-width: 72px !important;
+}
+
+.header_container{
+  background-color: #222222;
+  width: 100%;
+}
+
+.floatLeft{
+  float: left;
+}
+
+.floatRigth{
+  float: right;
+}
+
+.pay_touch{
+  max-width: 169px !important;
+  max-height: 73px;
+}
+
+.pin_white{
+  background-image: url("../../images/pin_white.png");
+}
+
+.pin_black{
+  background-image: url("../../images/pin_black.png");
+}
+
+.fullWidth{
+  width: 100%;
+}
+
+.black_bckground{
+  background-color: #444444;
+}
+
+.black_font{
+  color: #444444;
+}
+
+.white_bckground{
+  background-color: #ffffff;
+}
+
+.actor_container{
+  border-style: solid;
+  border-width: 7px;
+  border-color: #8c8c8c;
+  border-radius: 4%;
+}
+
+.white_font{
+  color: #ffffff;
+}
+
+.circular {
+  width: 150px;
+  height: 157px;
+  margin: 33px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.cursor_pointer{
+  cursor: pointer;
+}
+
+.filmo_img{
+  max-width: 200px;
+}
+
+.search_icon{
+  max-width: 75px;
+}
+
+.modal_close_icon{
+  max-width: 15px;
+}
+
+.close_icon_position{
+  margin-right: 20px;
+  margin-top: 29px;
+}
+
+.goT_green{
+  color: #00a18e;
+}
+
+.font_18px{
+  font-size: 18px;
+}
+
+.filmo_min_height{
+  min-height: 300px;
+}
+
+.back_chevron{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.filmo_div_txt{
+  font-size: 27px !important;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.no_margin{
+  margin: 0px !important;
+}
+
+.no_padding_left{
+  padding-left: 0px !important;
+}
+
+.actor_list_container{
+  background-color: #8c8c8c;
+}
+
+.own_modal_header{
+  min-height: 0px !important;
+  margin-left: 0px !important;
+  margin-top: -6px !important;
+  padding: 0px !important;
+  border-bottom: 0px solid transparent !important;
+}
+
+.own_modal_footer{
+  padding: 15px !important;
+  text-align: center !important;
+  border-top: 0px solid transparent !important;
+}
+
+*::-webkit-input-placeholder {
+color: #ffffff !important;
+}
+
+*:-moz-placeholder { /* Firefox 18- */
+  color: #ffffff !important;
+}
+
+*::-moz-placeholder {  /* Firefox 19+ */
+  color: #ffffff !important;
+}
+
+*:-ms-input-placeholder {
+  color: #ffffff !important;
+}
+
+.search_modal_input{
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.search_btn{
+  color: #ffffff;
+  background-color: #00a18e;
+  width: 100%;
+}

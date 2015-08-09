@@ -1,0 +1,26 @@
+<div class="form-group no_margin" ng-class="{'black_bckground white_font': index%2 == 0 && index!=undefined, 'white_bckground black_font' : index%2 != 0 || index==undefined, 'actor_container': index!=undefined}">
+  <div >
+    <div clas="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+      <a ng-href="#/goTouchApp/actorsDetailInfo/{{actor.id}}"><img class="circular" ng-src="{{actor.profile_path}}"></a>
+    </div>
+    <div clas="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+      <div>
+        <span>{{actor.name}}</span>
+      </div>
+      <div>
+        <!--<span ng-class="{'pin_white': index%2 == 0, 'pin_black' : index%2 != 0}"></span>-->
+        <img ng-if="index%2 == 0 &&  index!=undefined" src="/images/pin_white.png">
+        <img ng-if="index%2 != 0 ||  index==undefined" src="/images/pin_black.png">
+        <span>{{actor.location}}</span>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div clas="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+     <span>{{actor.description}}</span>
+    </div>
+    <div clas="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+     <span>{{actor.popularity}}</span>
+    </div>
+  </div>
+</div>

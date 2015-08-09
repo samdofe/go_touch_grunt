@@ -1,0 +1,7 @@
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><a class="floatLeft back_chevron" ng-href="#/goTouchApp/actorsList"><img src="images/back.png"></a></div>
+<actor-shrink-info actor="actDetail.actor"></actor-shrink-info>
+<div class="filmo_div_txt"><span>Filmography</span></div>
+<div ng-repeat="filmography in actDetail.actor.known_for">
+  <actor-filmography filmo="filmography"></actor-filmography>
+</div>
+
